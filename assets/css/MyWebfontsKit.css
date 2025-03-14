@@ -26,14 +26,14 @@
   
 @font-face {
   font-family: "BlushesBold";
-  src: url('webFonts/BlushesBold/font.woff2') format('woff2'), url('webFonts/BlushesBold/font.woff') format('woff');
+  src: url('../fonts/BlushesBold/font.woff2') format('woff2'), url('../fonts/BlushesBold/font.woff') format('woff');
 }
 @font-face {
   font-family: "BlushesBlack";
-  src: url('webFonts/BlushesBlack/font.woff2') format('woff2'), url('webFonts/BlushesBlack/font.woff') format('woff');
+  src: url('../fonts/BlushesBlack/font.woff2') format('woff2'), url('../fonts/BlushesBlack/font.woff') format('woff');
 }
 @font-face {
   font-family: "Blushes";
-  src: url('webFonts/Blushes/font.woff2') format('woff2'), url('webFonts/Blushes/font.woff') format('woff');
+  src: url('../fonts/Blushes/font.woff2') format('woff2'), url('../fonts/Blushes/font.woff') format('woff');
 }
 

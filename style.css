@@ -1,0 +1,4035 @@
+/*
+ Theme Name: BOES branding
+ Theme URI: https://example.com/
+ Author: Martijn Vervoort
+ Author URI: https://example.com/
+ Description: Een beschrijving van jouw thema.
+ Version: 1.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+    font-family: 'boes_branding_v2regular', sans-serif;
+    font-weight: normal; 
+}
+
+h2 {
+    font-family: 'Cabin', sans-serif;
+    font-style: italic; 
+}
+
+h3 {
+    font-family: 'boes_branding_v2regular', sans-serif;
+    font-weight: normal;
+}
+
+h4 {
+    line-height: 1.2;
+}
+
+.bbv2 {
+    font-family: 'boes_branding_v2regular' !important;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    margin: 0 auto;
+    width: auto;
+    background-color: #fff;
+    position: relative;
+}
+
+section.hero {
+    height: 415px;
+    width: auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    z-index: 0;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    max-width: 700px;
+    gap: 10px;
+    z-index: 10;
+    top: 40px;
+}
+
+.hero-img {
+    position: absolute;
+    left: 10px;
+    background-image: url(assets/img/nina1.png);
+    width: 626px;
+    height: 455px;
+    top: -370px;
+    z-index: 9000;
+}
+
+.kompas {
+    position: absolute;
+    background-image: url(assets/img/kompas.svg);
+    background-size: cover;
+    width: 332px;
+    height: 411px;
+    right: 120px;
+    z-index: 5;
+}
+
+
+.hero-container a, .hero-container p {
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+.hero-container h1 {
+    line-height: 130%;
+}
+
+.hero {
+    width: 100%;
+    position: relative;
+}
+
+.hero-wp {
+    background-image: url('assets/img/soft-plaster-texture-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 420px;
+    z-index: -9000;
+}
+
+.boes-button-blue {
+    background-color: #006EB3;
+    padding: 15px 20px;
+    color: #fff !important;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'BlushesBold';
+    border: none;
+    transition: 0.3s ease;
+    font-size: 20px;
+}
+
+.boes-button-blue:hover {
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+
+.boes-button-lila {
+    background-color: #C19DEE;
+    padding: 10px 20px;
+    color: #fff !important;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-family: 'BlushesBold';
+    font-size: 20px;
+}
+
+.boes-button-lila:hover {
+    background-color: #C19DEE;
+    padding: 10px 20px;
+    color: #fff !important;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+
+.site-branding {
+    display: flex;
+    margin: auto 0;
+}
+
+nav {
+    display: flex;
+    margin: auto 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+nav ul li {
+    list-style-type: none;  
+    text-decoration: none;
+}
+
+nav ul li a {
+    list-style-type: none;  
+    text-decoration: none;
+    font-size: 25px;
+    color: #304C5C;
+    font-family: Cabin;
+}
+
+.ben-jij-klaar-voor-de-reis {
+    display: flex;
+    flex-direction: column;
+    height: 1765px;
+    position: relative;
+}
+
+.pad1 {
+    position: absolute;
+    background-image: url(assets/img/pad1.svg);
+    background-size: cover;
+    width: 438px;
+    height: 1005px;
+    top: -80px;
+}
+
+.pad2 {
+    position: absolute;
+    background-image: url(assets/img/pad2.svg);
+    background-size: cover;
+    width: 550px;
+    height: 912px;
+    top: -80px;
+    right: 0px;
+}
+
+.pad3 {
+    position: absolute;
+    background-image: url(assets/img/uitgestippeld_pad-06-1.svg);
+    background-size: cover;
+    width: 1060px;
+    height: 630px;
+    bottom: 90px;
+    left: 0px;
+}
+
+.reis-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin: 0 auto;
+    z-index: 9000;
+}
+
+.reis-content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin: 0 auto;
+    gap: 80px;
+    z-index: 9000;
+}
+
+.reis-cta {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    z-index: 9000;
+    color: #fff;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.reis-cta h1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 130%;
+}
+
+.reis-foto-text {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 700px;
+    justify-content: space-between;
+}
+
+.reis-text-foto {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 700px;
+    justify-content: space-between;
+}
+
+
+
+.group118 {
+    background-image: url(assets/img/Group118.svg);
+    background-size: cover;
+    width: 140px;
+    height: 141px; 
+    z-index: 900;
+}
+
+.boat {
+    background-image: url(assets/img/boat.svg);
+    background-size: cover;
+    width: 90px;
+    height: 121px; 
+    z-index: 900;
+}
+
+.schatkaart {
+    background-image: url(assets/img/schatkaart.svg);
+    background-size: cover;
+    width: 140px;
+    height: 141px; 
+    z-index: 900;
+}
+
+.section-wallpaper {
+    background-image: url(assets/img/bg-wp-1.png);
+    background-size: cover;
+    height: 1900px;
+    width: 100%;
+    position: absolute;
+    top: -45px;
+    left: 0;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1920px) {
+   .section-wallpaper {
+    background-image: url(assets/img/bg-wp-1.png);
+    background-size: cover;
+    width: 100%;
+    height: 1900px;
+   }
+
+   .reizigers {
+    background-image: url(assets/img/bg-wp-2.png) !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 866px;
+   }
+
+   section.ahoy {
+    background-image: url(assets/img/bg-wp-3.png) !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 1965px;
+    margin-top: -14px;
+   }
+
+   section.contact-form {
+    background-image: url(assets/img/Achtergrond_1920X1080_1920X1080.png) !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 1080px;
+   }
+
+   .contact-cta-bg {
+    z-index: -900;
+    position: absolute;
+    transform: scale(1.05);
+   }
+}
+
+section.maak-je-keuze {
+    position: relative;
+    height: 2300px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.maak-je-keuze-wallpaper {
+    background-image: url(assets/img/soft-plaster-texture-3.svg);
+    background-size: cover;
+    height: 2500px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.maak-je-keuze-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 927px;
+    margin: 0 auto;
+}
+
+.maak-je-keuze-container h1{
+    text-align: center;
+    font-size: 48px;
+    color: #525252;
+    margin: 125px;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 40px;
+    margin-bottom: 150px;
+}
+
+.card {
+    position: relative;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.top-card {
+    height: auto;
+    background-color: #fff;
+    padding: 10px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.top-card h2 {
+    height: 100px;
+    text-align: center;
+    font-size: 32px;
+    color: #525252;
+    font-style: normal;
+    margin-bottom: 0px !important;
+}
+
+.top-card ul {
+    text-align: center; /* Centreert de hele lijst */
+    padding: 0;
+    margin: 0 auto; /* Centreert de lijst */
+    list-style: none; /* Verwijder standaard lijststijl */
+}
+
+.top-card ul li {
+    font-size: 22px;
+    color: #525252;
+    font-weight: 100;
+    text-align: left; /* Tekst links uitlijnen */
+    line-height: 2;
+    display: inline-block; /* Behoud inline-block gedrag */
+    position: relative; /* Nodig voor pseudo-element */
+    padding-left: 20px; /* Ruimte voor de bullet */
+}
+
+.top-card ul li::before {
+    content: '•'; /* Handmatige bullet */
+    color: black; /* Kleur van de bullet */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bottom-card {
+    background-color: lightblue;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-card a {
+    background-color: #CCFF00;
+    color: #006EB3;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    font-family: 'BlushesBold';
+    transition: 0.3s ease;
+}
+
+.bottom-card a:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+
+.bottom-card p {
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    font-family: 'BlushesBold' !important;
+}
+
+
+.card-img {
+    height: 150px;
+}
+
+.card-img-1 {
+    background-image: url(assets/img/surfplank.png);
+    width: 155px;
+    height: 150px;
+    background-size: cover;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+.card-img-2 {
+    background-image: url(assets/img/illustraties_Home_6.png);
+    width: 148px;
+    height: 147px;
+    background-size: cover;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+.card-img-3 {
+    background-image: url(assets/img/illustraties_Home_7.png);
+    width: 163px;
+    height: 140px;
+    background-size: cover;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+.workshop-label {
+    padding: 0px 10px;
+    position: absolute;
+    left: 32% !important;
+    top: -15px;
+    background-color: #B78BEF;
+    border-radius: 8px;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'BlushesBold';
+}
+
+.huisstijl-label {
+    padding: 0px 10px;
+    position: absolute;
+    left: 32% !important;
+    top: -15px;
+    background-color: #009DBF;
+    border-radius: 8px;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'BlushesBold';
+}
+
+.huisstijl-label2 {
+    padding: 0px 10px;
+    position: absolute;
+    left: 30% !important;
+    top: -20px;
+    background-color: #006EB3;
+    border-radius: 8px;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'BlushesBold';
+}
+
+.laat-je-adviseren {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    width: 750px;
+    height: 264px;
+    background-image: url(assets/img/Mask-group.svg);
+    background-size: cover;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 40px;
+    gap: 20px;
+    color: #fff;
+    margin-bottom: 150px;
+}
+
+.lja-box-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto 0;
+}
+
+.lja-box-1 h1 {
+    font-size: 42px;
+    margin: 0px;
+}
+
+.lja-box-1 p {
+    font-size: 22px;
+}
+
+.lja-box-2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto 0;
+}
+
+.lja-box-2 h1 {
+    font-size: 42px;
+    color: #CCFF00;
+    margin: 0px;
+    font-family: BlushesBold;
+}
+
+.lja-box-2 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#lja-tel {
+    font-size: 21px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.jla-tel-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #B78BEF;
+    padding: 10px;
+    border-radius: 8px;
+    width: 70%;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.lja-contact-box {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.lja-contact-box a {
+    margin: auto 0;
+}
+
+.lja-icon {
+    width: 24px;
+    height: 18px;
+    background-image: url(assets/img/Vector.png);
+    background-size: cover;
+    margin: auto 0;
+}
+
+.tel-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(assets/img/TelephoneFill.png);
+    background-size: cover;
+}
+
+
+.nina-round {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    background-image: url(assets/img/nina-round.png);
+    background-size: cover;
+    top: 44px;
+    right: -82px;
+}
+
+.reddingbootjes {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 927px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.rb-add-ons {
+    position: absolute;
+    padding: 5px 20px;
+    background-color: #CCFF00;
+    color: #006EB3;
+    top: -44px;
+    left: 105px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-family: BlushesBold;
+  }
+
+.rb-box {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40px;
+}
+
+.rb-box h1 {
+    font-size: 32px;
+    color: #525252;
+    margin-bottom: 0px;
+}
+
+.rb-box p {
+    font-size: 20px;
+    color: #525252;
+    margin-top: 0px;
+}
+
+.rb-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 60%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.rb-card {
+    background-color: #CCFF00;
+    width: 149px;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.rb-top-card h1 {
+    font-family: 'boes_branding_v2regular';
+    font-size: 18px;
+}
+
+.rb-top-card ul {
+    margin: 5px;
+    padding-left: 10px; /* Verminder deze waarde naar wens */
+}
+
+.rb-card ul li {
+    color: #006EB3;
+    font-size: 16px;
+    line-height: 2;
+    list-style-position: inside; /* Zorgt dat de bullet dichter bij de tekst komt */
+}
+
+.rb-card h1 {
+    padding: 10px 0px;
+    background-color: #006EB3;
+    color: #fff;
+    margin: 0px;
+    font-size: 18px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+}
+
+.rb-card p {
+    color: #006EB3;
+    font-size: 22px;
+    text-align: right;
+    font-family: 'BlushesBold';
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.rb-img {
+    width: 255px;
+    height: 85px;
+    background-image: url(assets/img/reddingsboot.svg);
+    background-size: cover;
+}
+
+.reizigers {
+    background-image: url(assets/img/reizigers-background.svg);
+    background-size: cover;
+    width: 100%;
+    margin-top: -100px;
+    height: auto;
+}
+
+.reizigers-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 927px;
+    height: 866px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    justify-content: start;
+    align-items: center; /* Zorg ervoor dat de items in het midden van de container staan */
+}
+
+.reizigers h1 {
+    font-size: 42px;
+    margin-top: 100px;
+}
+
+.reiziger {
+    display: none; /* Standaard verborgen */
+    flex-direction: column;
+    align-items: center; /* Zorgt ervoor dat de inhoud van de reiziger gecentreerd is */
+}
+
+.reiziger.active {
+    display: flex; /* Alleen de actieve reiziger wordt getoond */
+}
+
+.reizigers-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0px;
+    width: 700px;
+}
+
+.reizigers-left-icon, .reizigers-right-icon {
+    cursor: pointer; /* Maakt de pijlen klikbaar */
+}
+
+.reizigers-left-icon {
+    background-image: url(assets/img/reizigers-left-arrow.png);
+    background-size: cover;
+    width: 77px;
+    height: 39px;
+    margin: auto 0;
+}
+
+.reizigers-img-people {
+    background-image: url(assets/img/reiziger-emma.png);
+    background-size: cover;
+    width: 206px;
+    height: 183px;
+    margin: auto 0;
+}
+
+.reizigers-right-icon {
+    background-image: url(assets/img/reizigers-right-arrow.png);
+    background-size: cover;
+    width: 77px;
+    height: 39px;
+    margin: auto 0;
+}
+
+
+.verlopen {
+    height: 1200px;
+}
+
+.contact-cta-bg {
+    width: 97.5%;
+    height: 536px;
+    background-image: url(assets/img/contact-nina-background.svg);
+    background-size: cover;
+    z-index: -900;
+}
+
+.contact-cta {
+    position: relative;
+    width: 100%;
+    height: 536px;
+}
+
+.contact-cta-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 475px;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    color: #525252;
+}
+
+.contact-cta-content h1 {
+    line-height: 1.2;
+}
+
+.contact-cta-content a {
+    width: 30%;
+    text-align: center;
+}
+
+section.ahoy {
+    background-image: url(assets/img/website_verf_textuur_middengroot-2.svg);
+    background-size: cover;
+    height: 1965px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section.ahoy h1 {
+    margin-top: 150px;
+    font-size: 42px;
+    color: #fff;
+}
+
+.ahoy-container {
+    width: 915px;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.ahoy-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #fff;
+    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.ahoy-content-box {
+    display: flex;
+    flex-direction: column;
+    width: 495px;
+    text-align: left;
+    justify-content: start;
+}
+
+.ahoy-content-box h1 {
+    margin-top: 0px !important;
+    font-size: 28px !important;
+}
+
+.ahoy-img-1 {
+    background-image: url(assets/img/ahoy-img-1.png);
+    background-size: cover;
+    width: 219px;
+    height: 225px;
+}
+
+.ahoy-img-2 {
+    background-image: url(assets/img/ahoy-img-2.png);
+    background-size: cover;
+    width: 219px;
+    height: 225px;
+}
+
+.ahoy-img-3 {
+    background-image: url(assets/img/ahoy-img-3.png);
+    background-size: cover;
+    width: 219px;
+    height: 225px;
+}
+
+.boes-team {
+    width: 915px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 400px;
+}
+
+.person-image {
+    margin: 0 auto;
+}
+
+.person h1 {
+    font-size: 26px !important;
+    margin: 0px !important;
+    margin-top: 40px !important;
+}
+
+.person-img-0 {
+    background-image: url(assets/img/person-img-0.png);
+    background-size: cover;
+    width: 210px;
+    height: 196px;
+}
+
+.person-img-1 {
+    background-image: url(assets/img/michelle-de-koning.png);
+    background-size: cover;
+    width: 191px;
+    height: 196px;
+}
+
+.person-img-2 {
+    background-image: url(assets/img/person-martijn.png);
+    background-size: cover;
+    width: 191px;
+    height: 196px;
+}
+
+section.afgelopen-reizen {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.afgelopen-reizen h1 {
+    text-align: center; 
+    font-size: 42px;
+    color: #525252;
+}
+
+.ar-wp {
+    background-image: url(assets/img/katholiek-wp.png);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.afgelopen-reizen-container {
+    max-width: 912px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    height: 750px;
+}
+
+.hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.hover-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/img/p-hover.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; /* Stel de transparantie van de afbeelding hier in */
+    z-index: -2; /* Zorg ervoor dat deze onder andere elementen staat */
+}
+
+.hover-overlay img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hover-overlay .hover-button {
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.ar-wp:hover .hover-overlay {
+    opacity: 1;
+}
+
+.moons-wp:hover .hover-overlay {
+    opacity: 1;
+}
+
+.kapje-wp:hover .hover-overlay {
+    opacity: 1;
+}
+
+.foda-wp:hover .hover-overlay {
+    opacity: 1;
+}
+
+.emma-wp:hover .hover-overlay {
+    opacity: 1;
+}
+
+.secuur-wp:hover .hover-overlay {
+    opacity: 1;
+}
+
+.competentie-wp:hover .hover-overlay {
+    opacity: 1;
+}
+
+.ar-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.k-logo {
+    position: absolute;
+    background-image: url(assets/img/KJD_Logo.png);
+    background-size: cover;
+    width: 308px;
+    height: 225px;
+    top: -76px;
+    right: -165px;
+}
+
+.ar-box-1 {
+    padding: 0px 36px 0px 36px;
+    height: 495px;
+    width: 387px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ar-box-1 h1 {
+    font-family: Aleo;
+    font-size: 60px;
+    color: #0091FF;
+    font-style: italic;
+    margin: 0px;
+    text-align: left;
+}
+
+.ar-box-1 p {
+    font-family: Aleo;
+    font-size: 35px;
+    color: #0091FF;
+    font-style: italic;
+    margin: 0px;
+}
+
+.ar-box-2 {
+    width: 385px;
+    height: 495px;
+    background-image: url(assets/img/katholiek.png);
+    background-size: cover;
+}
+
+.ar-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ar-block1 {
+    width: 66px;
+    height: 66px;
+    background-color: #0091FF;
+}
+
+.ar-block2 {
+    width: 66px;
+    height: 66px;
+    background-color: #F7C908;
+}
+
+.ar-block3 {
+    width: 66px;
+    height: 66px;
+    background-color: #5DE8AC;
+}
+
+.ar-block4 {
+    width: 66px;
+    height: 66px;
+    background-color: #FFFFFF;
+}
+
+.ar-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ar-img1 {
+    width: 148px;
+    height: 148px;
+    background-image: url(assets/img/katholiek1.png);
+    background-size: cover;
+}
+
+.ar-img2 {
+    width: 148px;
+    height: 148px;
+    background-image: url(assets/img/katholiek2.png);
+    background-size: cover;
+}
+
+.ar-cta {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+section.inspiratie {
+    width: 100%;
+    height: 1100px;
+    background-image: url(assets/img/inspiratie-wp.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.inspiratie h1 {
+    text-align: center;
+    color: #525252;
+    font-size: 48px;
+}
+
+.inspiratie-linkedin {
+    width: 1317px;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+section.contact-form {
+    width: 100%;
+    height: 1065px;
+    background-image: url(assets/img/contact-verf.svg);
+    background-size: cover;
+}
+
+.cf-container {
+    width: 1170px;
+    height: 1075px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 150px;
+}
+
+.cf-box-1 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 200px;
+}
+
+.cf-box-2 {
+    position: relative;
+    margin-top: 150px;
+}
+
+.cf-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto 0;
+    gap: 10px;
+}
+
+.cf-content h1 {
+    font-size: 42px;
+    color: #fff;
+    margin: 0px;
+    width: 350px;
+}
+
+.cf-tel-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #CCFF00;
+    padding: 10px;
+    border-radius: 8px;
+    width: 70%;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+#cf-tel {
+    color: #006EB3;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.cf-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(assets/img/tel-blauw.png);
+    background-size: cover;
+}
+
+.cf-contact-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cf-contact-box a {
+    color: #fff;
+}
+
+.cf-nina {
+    position: absolute;
+    width: 224px;
+    height: 500px;
+    background-image: url(assets/img/cf-nina.png);
+    background-size: cover;
+    bottom: 0px;
+    right: 0px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Stijl voor de hele form */
+.contact-form form.wpcf7-form {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Stijl voor labels boven de lijn */
+.contact-form label {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #333;
+}
+
+/* Stijl voor tekstvelden met lijn onder de tekst */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fbfbfb;
+    font-size: 16px;
+    outline: none;
+    text-align: left;
+}
+
+.contact-form textarea {
+    height: 100px !important;
+}
+
+/* Stijl voor de verzendknop, links uitgelijnd */
+.contact-form input[type="submit"] {
+    background-color: #C19DEE;
+    padding: 10px 20px;
+    color: #fff !important;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+    border: none;
+    font-family: BlushesBold;
+    font-size: 22px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #C19DEE;
+    padding: 10px 20px;
+    color: #fff !important;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+
+/* Stijl voor foutmeldingen */
+.wpcf7-not-valid-tip {
+    color: #ff0000; /* Rood voor foutmeldingen */
+    font-size: 14px;
+    margin-top: -10px;
+    display: block;
+}
+
+/* Stijl voor succesmeldingen */
+.wpcf7-mail-sent-ok {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* ====== Checkbox buttons styling ====== */
+/* Verberg standaard checkbox */
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+/* Stijl voor labels van de checkboxes als knoppen */
+.custom-checkbox label {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #006EB3; /* Randkleur */
+    color: #006EB3; /* Tekstkleur */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Achtergrondkleur en tekstkleur aanpassen bij selectie */
+.custom-checkbox input[type="checkbox"]:checked + label {
+    background-color: #006EB3; /* Geselecteerde achtergrondkleur */
+    color: #fff; /* Geselecteerde tekstkleur */
+}
+
+
+footer {
+    padding: 20px;
+}
+
+.footer-content {
+    max-width: 85%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.bb-footer-logo {
+    background-image: url(assets/img/bb-footer-logo.png);
+    background-size: cover;
+    width: 290px;
+    height: 122px;
+}
+
+.fc-1, .fc-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: #525252;
+}
+
+.fc-1 h4, .fc-2 h4 {
+    font-weight: bold;
+}
+
+.f-social-images {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.f-social-img1, .f-social-img2, .f-social-img3, .f-social-img4 {
+    width: 32px;
+    height: 32px;
+}
+
+.f-social-img1 {
+    background-image: url(assets/img/f-ig.svg);
+    background-size: cover;
+}
+
+.f-social-img2 {
+    background-image: url(assets/img/f-f.svg);
+    background-size: cover;
+}
+
+.f-social-img3 {
+    background-image: url(assets/img/f-li.svg);
+    background-size: cover;
+}
+
+.f-social-img4 {
+    background-image: url(assets/img/fb-w.svg);
+    background-size: cover;
+}
+
+section.p-hero {
+    position: relative;
+    background-image: url(assets/img/nina-portfolio.jpg);
+    background-size: cover;
+    height: 415px;
+    width: 100%;
+}
+
+.witte-lijn {
+    position: absolute;
+    background-image: url(assets/img/witte_lijn-07.png);
+    background-size: cover;
+    bottom: -35px;
+    width: 100%;
+    height: 591px;
+}
+
+section.p-afgelopen-reizen {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+section.p-afgelopen-reizen.active {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+section.p1-afgelopen-reizen {
+    width: 100%;
+    height: auto;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+section.p1-afgelopen-reizen.active {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.kapje-wp {
+    background-image: url(assets/img/kapje&co/kapje-wp.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.kapje1-1 {
+    background-image: url(assets/img/kapje&co/kapje1.jpg);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.kapje-logo {
+    background-image: url(assets/img/kapje&co/kapje-logo.jpg);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.kapje-box-2 {
+    width: 385px;
+    height: 495px;
+    background-image: url(assets/img/kapje&co/kapje-iphone.jpg);
+    background-size: cover;
+}
+
+.kapje-logo-rond {
+    position: absolute;
+    background-image: url(assets/img/kapje&co/kapje-logo-rond.png);
+    background-size: cover;
+    width: 153px;
+    height: 200px;
+    top: -76px;
+    right: -75px;
+}
+
+.moons-wp {
+    background-image: url(assets/img/moons/moons-wp.png);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.moons-1 {
+    background-image: url(assets/img/moons/moons-1.png);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.moons-2 {
+    background-image: url(assets/img/moons/moons-2.png);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.moons-box-2 {
+    width: 386px;
+    height: 495px;
+    background-image: url(assets/img/moons/moons-photo.png);
+    background-size: cover;
+}
+
+.moons-bloem {
+    position: absolute;
+    background-image: url(assets/img/moons/moons-bloem.png);
+    background-size: cover;
+    width: 301px;
+    height: 332px;
+    top: -147px;
+    right: -113px;
+}
+
+.foda-wp {
+    background-image: url(assets/img/foda-silva/foda-wp.png);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.foda-1 {
+    background-image: url(assets/img/foda-silva/foda-1.jpg);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.foda-2 {
+    background-image: url(assets/img/foda-silva/foda-2.png);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.foda-box-2 {
+    width: 386px;
+    height: 495px;
+    background-image: url(assets/img/foda-silva/foda-photo.png);
+    background-size: cover;
+}
+
+.foda-sticker {
+    position: absolute;
+    background-image: url(assets/img/foda-silva/foda-sticker.png);
+    background-size: cover;
+    width: 238px;
+    height: 202px;
+    top: -76px;
+    right: -113px;
+}
+
+.secuur-wp {
+    background-image: url(assets/img/secuur/secuur-wp.png);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.secuur-1 {
+    background-image: url(assets/img/secuur/secuur-1.png);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.secuur-2 {
+    background-image: url(assets/img/secuur/secuur-2.png);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.secuur-box-2 {
+    width: 386px;
+    height: 495px;
+    background-image: url(assets/img/secuur/secuur-photo.png);
+    background-size: cover;
+}
+
+.secuur-sticker {
+    position: absolute;
+    background-image: url(assets/img/secuur/secuur-sticker.png);
+    background-size: cover;
+    width: 238px;
+    height: 202px;
+    top: -116px;
+    right: -122px;
+}
+
+.emma-wp {
+    background-image: url(assets/img/emma/emma-wp.png);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.emma-1 {
+    background-image: url(assets/img/emma/emma-1.png);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.emma-2 {
+    background-image: url(assets/img/emma/emma-2.png);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.emma-box-2 {
+    width: 386px;
+    height: 495px;
+    background-image: url(assets/img/emma/emma-photo.png);
+    background-size: cover;
+}
+
+.emma-sticker {
+    position: absolute;
+    background-image: url(assets/img/emma/emma-sticker.png);
+    background-size: cover;
+    width: 238px;
+    height: 202px;
+    top: -80px;
+    right: -116px;
+}
+
+section.img-text {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 50px auto;
+}
+
+.img-kjd {
+    background-image: url(assets/img/katholieke-jongerendag/kjd-logo.png);
+    background-size: cover;
+    width: 293.61px;
+    height: 204px;
+}
+
+.content-split {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    justify-content: center;
+}
+
+section.p-wp {
+    position: relative;
+    background-image: url(assets/img/p-wp.png);
+    background-size: cover;
+    width: 100%;
+    height: 333px;
+    align-content: center;
+    z-index: 900;
+}
+
+section.p-wp p {
+    display: flex;
+    margin: 0 auto;
+}
+
+section.texture-content {
+    position: relative;
+    background-image: url(assets/img/texture-wp-1452.png);
+    background-size: cover;
+    width: 100%;
+    height: 1300px;
+    margin-top: -50px;
+}
+
+.witte-lijn-1920 {
+    position: absolute;
+    bottom: 0px;
+    background-image: url(assets/img/witte-lijn-1920.png);
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
+
+.texture-content-container {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    max-width: 814px;
+    margin: 0px auto;
+}
+
+.tc-images {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-top: 150px;
+}
+
+.tc-img1 {
+    background-image: url(assets/img/katholieke-jongerendag/kjd-logo1.png);
+    background-size: cover;
+    width: 219px;
+    height: 219px;
+}
+
+.tc-img2 {
+    background-image: url(assets/img/katholieke-jongerendag/kjd-emblem.png);
+    background-size: cover;
+    width: 219px;
+    height: 219px;
+}
+
+.tc-img3 {
+    background-image: url(assets/img/katholieke-jongerendag/kjd-logo-wit.jpg);
+    background-size: cover;
+    width: 305px;
+    height: 219px;
+}
+
+.tc-text {
+    color: #525252;
+}
+
+.tc-image2 {
+    background-image: url(assets/img/katholieke-jongerendag/kjd-photos.png);
+    background-size: cover;
+    width: 862px;
+    height: 273px;
+}
+
+section.white-bg-content {
+    background-color: #fff;
+    height: 2600px;
+    width: 100%;
+}
+
+.white-bg-container {
+    max-width: 814px;
+    margin: 0 auto;
+}
+
+.white-bg-img-text {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.kjd-multiple-images {
+    background-image: url(assets/img/katholieke-jongerendag/kjd-img-3.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.white-bg-img-text-content {
+    color: #525252;
+    width: 433px;
+}
+
+.kjd-img-1 {
+    background-image: url(assets/img/katholieke-jongerendag/kjd-img-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 460px;
+    margin-top: 50px;
+}
+
+.kjd-img-2 {
+    background-image: url(assets/img/katholieke-jongerendag/kjd-img-2.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+section.meerzien {
+    position: relative;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+    width: 100%;
+    background-image: url(assets/img/meerzien-wp.png);
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+}
+
+section.meerzien2 {
+    position: relative;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+    width: 100%;
+    background-image: url(assets/img/meerzien-wp.png);
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+}
+
+section.meerzien3 {
+    position: relative;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+    width: 100%;
+    background-color: #fff;
+    justify-content: center;
+    align-content: center;
+}
+
+section.meerzien h2 {
+    font-size: 48px;
+    color: #525252;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'boes_branding_v2regular';
+    font-style: normal;
+    margin: 50px 0px;
+}
+
+section.meerzien2 h2 {
+    font-size: 48px;
+    color: #525252;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'boes_branding_v2regular';
+    font-style: normal;
+    margin: 50px 0px;
+}
+
+section.meerzien3 h2 {
+    font-size: 48px;
+    color: #525252;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'boes_branding_v2regular';
+    font-style: normal;
+    margin: 50px 0px;
+}
+
+section.p-laat-je-adviseren {
+    position: relative;
+    background-image: url(assets/img/cta-wallpaper.png);
+    background-size: cover;
+    height: 784px;
+    width: 100%;
+    margin-top: -50px;
+    z-index: 9000;
+}
+
+.p-lja-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(assets/img/mail-icon-gray.png);
+    background-size: cover;
+    margin: auto 0;
+}
+
+.p-boes-button-blue {
+    width: 50px;
+    height: 50px;
+    background-color: #006EB3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'BlushesBold';
+    font-size: 22px;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.boes-button-blue.active {
+    opacity: 1;
+    background-color: #006EB3; /* Actieve kleur */
+    color: #fff !important;
+    font-family: 'Blushes' !important;
+}
+
+.img-moons {
+    background-image: url(assets/img/moons/moons-logo-p.png);
+    background-size: cover;
+    width: 403px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.moons1 {
+    background-image: url(assets/img/moons/moons1.png);
+    background-size: cover;
+    width: 219px;
+    height: 219px;
+}
+
+.moons2 {
+    background-image: url(assets/img/moons/moons2.png);
+    background-size: cover;
+    width: 219px;
+    height: 219px;
+}
+
+.moons3 {
+    background-image: url(assets/img/moons/moons3.png);
+    background-size: cover;
+    width: 219px;
+    height: 219px;
+}
+
+.moons-photo-flowers {
+    background-image: url(assets/img/moons/moons-photo-flowers.png);
+    background-size: cover;
+    width: 814px;
+    height: 355px;
+}
+
+.moons-multiple {
+    background-image: url(assets/img/moons/moons250-1.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.moons250-2 {
+    background-image: url(assets/img/moons/moons250-2.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.moons-iphones {
+    background-image: url(assets/img/moons/moons-iphones.jpg);
+    background-size: cover;
+    width: 917px;
+    height: 499px;
+}
+
+.p-image-slider1 {
+    background-image: url(assets/img/moons/slide1.jpg);
+    background-size: cover;
+    width: 921px;
+    height: 460px;
+}
+
+.p-image-slider2 {
+    background-image: url(assets/img/moons/slide2.jpg);
+    background-size: cover;
+    width: 921px;
+    height: 460px;
+}
+
+.p-image-slider3 {
+    background-image: url(assets/img/moons/slide3.png);
+    background-size: cover;
+    width: 921px;
+    height: 460px;
+}
+
+.p-image-slider4 {
+    background-image: url(assets/img/moons/slide4.png);
+    background-size: cover;
+    width: 921px;
+    height: 460px;
+}
+
+.p-moons-gif {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.moons-gif-1 {
+    background-image:url(assets/img/moons/moons-story.gif);
+    background-size: cover;
+    width: 222px;
+    height: 396px;
+}
+
+.moons-gif-2 {
+    background-image:url(assets/img/moons/moons-story-2.gif);
+    background-size: cover;
+    width: 222px;
+    height: 396px;
+}
+
+.moons-gif-content {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+}
+
+.moniek {
+    background-image: url(assets/img/moons/moniek.png);
+    background-size: cover;
+    width: 206px;
+    height: 183px;
+    margin: auto 0;
+}
+
+.img-kapje {
+    background-image: url(assets/img/kapje&co/kapje-logo.png);
+    background-size: cover;
+    width: 283px;
+    height: 204px;
+    margin: 0 auto;
+}
+
+.daan {
+    background-image: url(assets/img/kapje&co/daan.png);
+    background-size: cover;
+    width: 206px;
+    height: 183px;
+    margin: auto 0;
+}
+
+.kapje1 {
+    background-image: url(assets/img/kapje&co/kapje-logo-texture.png);
+    background-size: cover;
+    width: 279px;
+    height: 279px;
+}
+
+.kapje2 {
+    background-image: url(assets/img/kapje&co/kapje-2.png);
+    background-size: cover;
+    width: 223px;
+    height: 225px;
+}
+
+.kapje3 {
+    background-image: url(assets/img/kapje&co/kapje3.png);
+    background-size: cover;
+    width: 223px;
+    height: 225px;
+}
+
+.kapje-huisstijl {
+    background-image: url(assets/img/kapje&co/kapje-huisstijl.png);
+    background-size: cover;
+    width: 382px;
+    height: 382px;
+}
+
+.kapje-iphones {
+    background-image: url(assets/img/kapje&co/kapje-iphones.png);
+    background-size: cover;
+    width: 917px;
+    height: 499px;
+}
+
+.kapjeco1 {
+    background-image: url(assets/img/kapje&co/kapjeco1.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.kapjeco1-2 {
+    background-image: url(assets/img/kapje&co/kapjeco1-2.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.kapjeco1-3 {
+    background-image: url(assets/img/kapje&co/kapjeco1-3.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.kapjeco2 {
+    background-image: url(assets/img/kapje&co/kapjeco2.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.kapjeco2-2 {
+    background-image: url(assets/img/kapje&co/kapjeco2-2.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.kapjeco3 {
+    background-image: url(assets/img/kapje&co/kapjeco3.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.kapjeco3-2 {
+    background-image: url(assets/img/kapje&co/kapjeco3-2.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.kapje-texture {
+    height: 750px !important;
+}
+
+.kapje-white {
+    height: 2100px !important;
+}
+
+.white-kjd {
+    height: 1900px !important;
+}
+
+.img-foda {
+    background-image: url(assets/img/foda-silva/foda-silva-logo-white.png);
+    background-size: cover;
+    width: 351px;
+    height: 244px;
+    margin: 0 auto;
+}
+
+.foda1 {
+    background-image: url(assets/img/foda-silva/foda1.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.foda2 {
+    background-image: url(assets/img/foda-silva/foda2.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.foda3 {
+    background-image: url(assets/img/foda-silva/foda3.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.foda-texture {
+    height: 1500px !important;
+}
+
+.foda4 {
+    background-image: url(assets/img/foda-silva/foda4.png);
+    background-size: cover;
+    width: 792px;
+    height: 297px;
+}
+
+.foda5{
+    background-image: url(assets/img/foda-silva/foda5.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.foda6{
+    background-image: url(assets/img/foda-silva/foda6.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.foda7{
+    background-image: url(assets/img/foda-silva/foda7.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.foda8{
+    background-image: url(assets/img/foda-silva/foda8.png);
+    background-size: cover;
+    width: 100%;
+    height: 460px;
+}
+
+.white-foda {
+    height: 1900px !important;
+}
+
+.emma-logo{
+    background-image: url(assets/img/emma/emma-logo.png);
+    background-size: cover;
+    width: 293px;
+    height: 202px;
+}
+
+.foda-people {
+    background-image: url(assets/img/foda-silva/foda-people.png);
+    background-size: cover;
+    width: 206px;
+    height: 183px;
+    margin: auto 0;
+}
+
+.emma1{
+    background-image: url(assets/img/emma/emma1.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma2{
+    background-image: url(assets/img/emma/emma2.png);
+    background-size: cover;
+    width: 513px;
+    height: 225px;
+}
+
+.emma3{
+    background-image: url(assets/img/emma/emma3.png);
+    background-size: cover;
+    width: 100%;
+    height: 297px;
+}
+
+.emma-iphones{
+    background-image: url(assets/img/emma/emma15.png);
+    background-size: cover;
+    width: 100%;
+    height: 443px;
+}
+
+.emma4{
+    background-image: url(assets/img/emma/emma4.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma5{
+    background-image: url(assets/img/emma/emma5.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma6{
+    background-image: url(assets/img/emma/emma6.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma7{
+    background-image: url(assets/img/emma/emma7.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma8{
+    background-image: url(assets/img/emma/emma8.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma9{
+    background-image: url(assets/img/emma/emma9.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma10{
+    background-image: url(assets/img/emma/emma10.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma11{
+    background-image: url(assets/img/emma/emma11.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma12{
+    background-image: url(assets/img/emma/emma12.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma13{
+    background-image: url(assets/img/emma/emma13.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma14{
+    background-image: url(assets/img/emma/emma14.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.emma15{
+    background-image: url(assets/img/emma/emma15.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.white-emma {
+    height: 2500px !important;
+}
+
+.emma-person {
+    background-image: url(assets/img/emma/emma-person.png);
+    background-size: cover;
+    width: 206px;
+    height: 183px;
+    margin: auto 0;
+}
+
+.secuur-logo{
+    background-image: url(assets/img/secuur/secuur1.png);
+    background-size: cover;
+    width: 305px;
+    height: 212px;
+}
+
+.secuur2{
+    background-image: url(assets/img/secuur/secuur2.png);
+    background-size: cover;
+    width: 255px;
+    height: 255px;
+}
+
+.secuur3{
+    background-image: url(assets/img/secuur/secuur3.png);
+    background-size: cover;
+    width: 545px;
+    height: 225px;
+}
+
+.secuur4{
+    background-image: url(assets/img/secuur/secuur4.png);
+    background-size: cover;
+    width: 100%;
+    height: 297px;
+}
+
+.secuur5{
+    background-image: url(assets/img/secuur/secuur5.png);
+    background-size: cover;
+    width: 100%;
+    height: 460px;
+}
+
+.secuur6{
+    background-image: url(assets/img/secuur/secuur6.png);
+    background-size: cover;
+    width: 255px;
+    height: 255px;
+}
+
+.secuur7{
+    background-image: url(assets/img/secuur/secuur7.png);
+    background-size: cover;
+    width: 100%;
+    height: 460px;
+}
+
+.white-secuur {
+    height: 6200px !important;
+}
+
+.secuur8{
+    background-image: url(assets/img/secuur/secuur8.png);
+    background-size: cover;
+    width: 296px;
+    height: 354px;
+    margin-right: auto;
+}
+
+.secuur9{
+    background-image: url(assets/img/secuur/secuur9.png);
+    background-size: cover;
+    width: 100%;
+    height: 308px;
+}
+
+.secuur10{
+    background-image: url(assets/img/secuur/secuur10.png);
+    background-size: cover;
+    width: 100%;
+    height: 3118px;
+}
+
+.secuur11{
+    background-image: url(assets/img/secuur/secuur11.png);
+    background-size: cover;
+    width: 100%;
+    height: 303px;
+}
+
+.stefan {
+    background-image: url(assets/img/secuur/stefan.png);
+    background-size: cover;
+    width: 206px;
+    height: 183px;
+    margin: auto 0;
+}
+
+.mobile-cta-box {
+    display: none;
+}
+
+.index1 {
+    background-image: url(assets/img/illustraties_Home_1.svg);
+    background-size: cover;
+    width: 223px;
+    height: 206px;
+}
+
+.index2 {
+    background-image: url(assets/img/illustraties_Homepagina_2.svg);
+    background-size: cover;
+    width: 265px;
+    height: 233px;
+    transform: scaleX(-1);
+}
+
+.index3 {
+    background-image: url(assets/img/illustraties_Home_3.png);
+    background-size: cover;
+    width: 198px;
+    height: 171px;
+}
+
+.index4 {
+    background-image: url(assets/img/illustraties_Home_4.svg);
+    background-size: cover;
+    width: 206px;
+    height: 137px;
+}
+
+section.fase {
+    height: 1000px;
+    display: flex;
+    justify-content: start;
+    position: relative;
+}
+
+.lijn-paars-1 {
+    position: absolute;
+    left: 0px;
+    background-image: url(assets/img/lijn-paars-1.png);
+    width: 824px;
+    height: 236px;
+    top: 100px;
+    z-index: -9000;
+}
+
+.lijn-paars-2 {
+    position: absolute;
+    right: 0px;
+    background-image: url(assets/img/lijn-paars-2.png);
+    width: 824px;
+    height: 236px;
+    bottom: 150px;
+    z-index: -9000;
+}
+
+.fase-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+    gap: 70px;
+    margin-top: 150px;
+}
+
+.fase-container h1 {
+    color: #525252;
+    font-size: 42px;
+}
+
+.fase-container a {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.fases {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.fase-card {
+    width: 216px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #cbb3ea;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+/* Niet-actieve fases: alleen titel zichtbaar */
+.fase-card:not(.active) {
+    height: 50px;
+    background-color: #cebce5 /* 50% opacity */
+    display: flex;
+    align-items: center; /* Zorgt dat de titel gecentreerd blijft */
+}
+
+/* Actieve fase: volledige inhoud tonen */
+.fase-card.active {
+    height: auto; /* Zorgt dat de inhoud volledig wordt weergegeven */
+    background-color: #b78bef; /* Volledige kleur */
+}
+
+/* Content standaard verbergen */
+.fase-card .content {
+    display: none;
+}
+
+/* Toon inhoud van actieve fase */
+.fase-card.active .content {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Zorg dat de titel altijd zichtbaar blijft */
+.fase-card p:first-child {
+    margin: 0;
+}
+
+/* Optioneel: subtiel hover-effect op niet-actieve fases */
+.fase-card:not(.active):hover {
+    background-color:#c3a4eb;
+}
+
+.fase-card .divider {
+    border: 1px solid #fff;
+    opacity: 50%;
+}
+
+.witte-lijn-1920x1080 {
+    background-image: url(assets/img/witte-lijn-1920x1080.png);
+    background-size: cover;
+    position: absolute;
+    top: -15px;
+    width: 100%;
+    height: 30px;
+}
+
+.blog-cards-section {
+    background-image: url(assets/img/blog-wp.png);
+    background-size: cover;
+    padding: 50px 20px;
+    text-align: center;
+    height: 1100px;
+    position: relative;
+}
+
+.blog-cards-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.blog-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+}
+
+.blog-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.blog-card {
+    position: relative;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 400px;
+    height: 308px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog-card-image img {
+    width: 357px;
+    height: 168px;
+    display: block;
+    border-radius: 8px 8px 0 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.blog-card-content {
+    padding: 15px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-card-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.blog-card-content p {
+    font-size: 0.9rem;
+    width: 70%;
+}
+
+.blog-card-content p:last-of-type {
+    position: relative; 
+}
+
+.blog-card-content p:last-of-type::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%; /* Pas aan voor hoe groot de fade moet zijn */
+    background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0) 100%);
+    pointer-events: none; /* Zorgt ervoor dat dit element geen interactie blokkeert */
+    z-index: 1; /* Plaatst het fade-effect correct */
+}
+
+.blog-card-content .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0073aa;
+    font-weight: bold;
+}
+
+.view-all {
+    margin-top: 30px;
+}
+
+.view-all .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.view-all .btn:hover {
+    background-color: #005f8d;
+}
+
+.publish-date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.blog-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 0px 10px !important;
+    font-size: 15px;
+    border-radius: 4px !important;
+}
+
+.blog-witte-lijn {
+    background-image: url(assets/img/witte-lijn-1920x1080.png);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 0px;
+}
+
+.witte-lijn-bottom {
+    background-image: url(assets/img/witte-lijn-1920x1080.png);
+    background-size: cover;
+    transform: scaleY(-1);
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.single-blog-container {
+    background-image: url(assets/img/blog-wp.jpg);
+    background-size: cover;
+    height: 1500px;
+    width: 100%;
+}
+
+.blog-boxes {
+    width: 922px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.blog-box-1 {
+    margin-top: 100px;
+    width: 60%;
+}
+
+.blog-box-2 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 50px;
+}
+
+.post-content-single {
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    color: #000;
+    border-radius: 12px;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.single-blog-post-content {
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    color: #000;
+    border-radius: 12px;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.blog-lja {
+    background-image: url(assets/img/ljd-wp.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 293px;
+    height: 470px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+}
+
+.blog-nina-round {
+    background-image: url(assets/img/nina-round.png);
+    background-size: cover;
+    width: 123px;
+    height: 126px;
+    margin: 0 auto;
+}
+
+.blog-tel {
+    background-color: #B78BEF;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blog-tel p {
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.blog-tel-icon {
+    background-image: url(assets/img/TelephoneFill.png);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.blog-mail {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.blog-mail p {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.blog-mail-icon {
+    background-image: url(assets/img/Vector.png);
+    background-size: cover;
+    width: 19px;
+    height: 14px;
+    margin-left: 10px;
+}
+
+.single-blog-card {
+    position: relative;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 293px;
+    height: 308px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.single-blog-card-image img {
+    width: 100%;
+    height: 168px;
+    display: block;
+    border-radius: 8px 8px 0 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+}
+
+.single-blog-card-content {
+    padding: 15px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.single-blog-card-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.single-blog-card-content p {
+    font-size: 0.9rem;
+    width: 50%;
+}
+
+.single-blog-card-content p:last-of-type {
+    position: relative; 
+}
+
+.single-blog-card-content p:last-of-type::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%; /* Pas aan voor hoe groot de fade moet zijn */
+    background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0) 100%);
+    pointer-events: none; /* Zorgt ervoor dat dit element geen interactie blokkeert */
+    z-index: 1; /* Plaatst het fade-effect correct */
+}
+
+.blog-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Zorgt ervoor dat de afbeelding proportioneel past */
+    object-position: center; /* Optioneel: positioneert de afbeelding in het midden */
+}
+
+.blogs-wp-nina {
+    background-image: url(assets/img/blogs-wp-nina.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 415px;
+}
+
+.competentie-wp {
+    background-image: url(assets/img/competentie/competentie-wp.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.competentie-1 {
+    background-image: url(assets/img/competentie/competentie-1.jpg);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.competentie-2 {
+    background-image: url(assets/img/competentie/competentie-2.jpg);
+    background-size: cover; 
+    width: 147px; 
+    height: 147px;
+}
+
+.competentie-box-2 {
+    width: 386px;
+    height: 495px;
+    background-image: url(assets/img/competentie/competentie-box-2.png);
+    background-size: cover;
+}
+
+.competentie-sticker {
+    position: absolute;
+    background-image: url(assets/img/competentie/competentie-sticker.png);
+    background-size: cover;
+    width: 126px;
+    height: 114px;
+    top: -36px;
+    right: -81px;
+}
+
+.competentie-logo{
+    background-image: url(assets/img/competentie/competentie-logo.png);
+    background-size: cover;
+    width: 385px;
+    height: 196px;
+}
+
+.competentie1{
+    background-image: url(assets/img/competentie/competentie1.png);
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+}
+
+.competentie2{
+    background-image: url(assets/img/competentie/competentie2.png);
+    background-size: cover;
+    width: 513px;
+    height: 225px;
+}
+
+.competentie3{
+    background-image: url(assets/img/competentie/competentie3.png);
+    background-size: cover;
+    width: 100%;
+    height: 297px;
+}
+
+.competentie4{
+    background-image: url(assets/img/competentie/competentie4.png);
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+}
+
+.competentie5{
+    background-image: url(assets/img/competentie/competentie5.png);
+    background-size: cover;
+    width: 100%;
+    height: 718px;
+}
+
+.white-competentie {
+    height: 5500px !important;
+}
+
+.competentie6{
+    background-image: url(assets/img/competentie/competentie6.png);
+    background-size: cover;
+    width: 100%;
+    height: 1500px;
+}
+
+.competentie7{
+    background-image: url(assets/img/competentie/competentie7.png);
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+
+.hans-person {
+    background-image: url(assets/img/competentie/hans.png);
+    background-size: cover;
+    width: 206px;
+    height: 183px;
+    margin: auto 0;
+}
+
+@media screen and (max-width: 1000px) {
+
+    header {
+        height: 57px;
+    }
+
+    .site-branding a {
+        width: 192px;
+        height: 24px;
+    }
+
+    section.hero {
+        height: 350px;
+    }
+
+    .hero-wp {
+        z-index: -9000;
+        height: 350px;
+    }
+
+    .pad1, .pad2, .pad3 {
+        width: 100%;
+        display: none;
+    }
+
+    .kompas, .hero-img {
+        display: none;
+    }
+
+    .hero-img {
+        width: 309px;
+        height: 224px;
+        background-size: cover;
+        transform: scaleX(-1); 
+        bottom: -100px;
+        top: -183px;
+        left: 149px;
+        z-index: 0;
+    }
+
+    .hero-container-h1 {
+        font-size: 34px;
+        text-align: center !important;
+        padding: 0px 25px;
+    }
+
+    .hero-container-p {
+        font-size: 18px !important;
+        text-align: center !important;
+        padding: 20px;
+        padding-top: 0px !important;
+        width: 280px;
+        margin: 0 auto !important;
+    }
+
+    .kompas {
+        background-size: cover;
+        width: 146px;
+        height: 181px;
+        right: -14px;
+        z-index: 5; 
+        bottom: 25px;
+    }
+
+    .hero-container a {
+        margin: 0 auto;
+    }
+
+    .ben-jij-klaar-voor-de-reis {
+        height: auto;
+        z-index: 1;
+    }
+
+    .section-wallpaper {
+        height: 2350px;
+        background-image: url(assets/img/home-long.png) !important;
+        margin-top: 30px;
+    }
+
+    .top-card {
+        height: auto;
+    }
+
+    .reis-content {
+        padding: 35px;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .reis-content h4 {
+        font-size: 22px !important;
+    }
+
+    .reis-content p {
+        font-size: 18px !important;
+    }
+
+    .reis-text-h1, .reis-cta-h1 {
+        font-size: 26px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .reis-cta {
+        padding: 35px;
+    }
+
+    .group118, .boat, .schatkaart {
+        margin: 0 auto;
+    }
+
+    .group118 {
+        order: 1;
+    }
+    
+
+    .reis-foto-text, .reis-text-foto {
+        flex-direction: column !important;
+    }  
+
+    section.maak-je-keuze {
+        height: auto;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .maak-je-keuze-wallpaper {
+        height: 4800px;
+        z-index: -100;
+    }
+
+    .maak-je-keuze-container h1 {
+        margin: 0px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-size: 38px !important;
+    }
+
+    .mjkc-h1 {
+        font-size: 25px !important;
+        text-align: left;
+        width: 100%;
+    }
+
+    .pricing-container {
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 50px;
+    }
+
+    .laat-je-adviseren {
+        width: 312px;
+        height: 558px;
+        flex-direction: column;
+        height: auto;
+        gap: 150px;
+        margin-bottom: 0px;
+        background-image: url(assets/img/ljd-wp.jpg);
+        border-radius: 20px;
+    }
+
+    .reizigers {
+        margin-top: 0px;
+    }
+
+    .lja-box-1 {
+        width: 100%;
+    }
+
+    .lja-box-1 h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .lja-box-1 p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .nina-round {
+        width: 120px;
+        height: 120px;
+        right: 29%;
+        top: 35%;
+    }
+
+    .lja-box-2 {
+        width: 100%;
+    }
+
+    .lja-box-2 h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .jla-tel-box {
+        width: 100%;
+    }
+
+    .lja-contact-box {
+        text-align: center;
+    }
+
+    .rb-box {
+        width: 75%;
+    }
+
+    .rb-box h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .rb-add-ons {
+        left: 100px;
+    }
+
+    .reddingbootjes {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .rb-cards {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .rb-card {
+        width: 100%;
+    }
+
+    .reizigers-container {
+        width: 100%;
+    }
+
+    section.ahoy {
+        background-image: url(assets/img/bg-long.png) !important;
+        height: 3900px;
+        margin-top: -1px;
+    }
+
+    .boes-button-lila {
+        width: 100% !important;
+    }
+
+    .ahoy-container {
+        width: 100%;
+        gap: 75px;
+    }
+
+    .ahoy-box {
+        flex-direction: column;
+    }
+
+    .ahoy-content-box {
+        width: 100%;
+        text-align: center;
+        order: 1;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .boes-team {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    section.afgelopen-reizen {
+        height: auto;
+        margin: 25px 0px;
+    }
+
+    .afgelopen-reizen h1 {
+        font-size: 34px;
+    }
+
+    .ar-wp, .kapje-wp, .moons-wp, .foda-wp, .secuur-wp, .emma-wp, .competentie-wp {
+        height: 100%;
+    }
+
+    .k-logo, .kapje-logo-rond, .moons-bloem, .foda-sticker, .secuur-sticker, .emma-sticker, .competentie-sticker {
+        display: none;
+    }
+
+    .afgelopen-reizen-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .ar-wrapper {
+        flex-direction: column;
+
+    }
+
+    .contact-cta-content {
+        width: 100%;
+        position: absolute;
+        padding: 20px;
+        color: #fff;
+        left: 0%;
+        top: 14%;
+    }
+
+    .contact-cta-content h1 {
+        font-size: 22px !important;
+    }
+
+    .contact-cta-content p {
+        font-size: 16px !important;
+    }
+
+    .contact-cta {
+        height: 600px;
+    }
+
+    .contact-cta-bg {
+        width: 97.5%;
+        height: 600px;
+        background-image: url(assets/img/mobile-contact-cta-bg.jpg);
+    }
+
+    section.contact-form {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .cf-container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 50px;
+        margin: 25px 0px;
+    }
+
+    .cf-box-1 {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .cf-box-2 {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .fc-1, .fc-2 {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .f-social-images {
+        justify-content: center;
+    }
+
+    .mobile-p-h1 {
+        margin-top: 20px !important;
+        font-size: 50px !important;
+    }
+
+    section.img-text {
+        flex-direction: column;
+    }
+
+    .content-split {
+        width: 100%;
+    }
+
+    .content-split h1 {
+        font-size: 20px !important;
+    }
+
+    section.p-wp p {
+        width: 100% !important;
+        font-size: 24px !important;
+    }
+
+    section.texture-content {
+        height: auto;
+    }
+
+    .texture-content-container {
+        width: 100%;
+    }
+
+    .tc-images {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .tc-text {
+        padding: 20px !important;
+        margin-bottom: 50px;
+    }
+
+    .tc-image2 {
+        width: 80% !important;
+        height: 120px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .tc-img1, .tc-img2, .tc-img3 {
+        margin: 0 auto;
+    }
+
+    .white-bg-img-text {
+        flex-direction: column;
+    }
+
+    section.white-bg-content {
+        height: auto !important;
+    }
+
+    section.meerzien {
+        height: auto;
+        margin-top: -20px;
+    }
+
+
+    section.meerzien2 {
+        height: auto;
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+
+    section.meerzien2 h2 {
+        margin-top: 100px !important;
+    }
+
+    section.meerzien3 {
+        height: auto;
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+
+    section.meerzien3 h2 {
+        margin-top: 100px !important;
+    }
+
+    .reizigers-container {
+        width: 100%;
+        height: 975px;
+    }
+
+    .white-bg-img-text-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #image-container {
+        margin: 0 auto;
+    }
+    
+    section.img-text {
+        width: 100% !important;
+        padding: 20px;
+    }
+
+    .kjd-img-1 {
+        background-image: url(assets/img/katholieke-jongerendag/kjd-mobile.png);
+        height: 393;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .img-kjd {
+        margin: 0 auto;
+    }
+
+    section.p-laat-je-adviseren {
+        margin-top: -20px;
+    }
+
+    .moons-photo-flowers {
+        width: 100%;
+        height: 160px;
+    }
+
+    .p-image-slider1, .p-image-slider2, .p-image-slider3, .p-image-slider4 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .p-moons-gif {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .moons-iphones {
+        width: 100%;
+        height: 212px;
+        margin-bottom: 100px;
+    }
+
+    .tc-images {
+        margin: 0 auto;
+        align-items: center !important;
+    }
+
+    .moons-gif-1, .moons-gif-2 {
+        margin: 0 auto;
+    }
+
+    .img-moons {
+        width: 100%;
+        height: 167px;
+    }
+
+    .texture-content-container {
+        margin-top: 35px;
+    }
+
+    .kapje-texture {
+        height: auto !important;
+    }
+
+    .kapje1 {
+        display: none;
+    }
+
+    .kapje-white {
+        height: auto !important;
+        margin-bottom: 50px;
+    }
+
+    .kapje-iphones {
+        background-image:url(assets/img/kapje&co/kapje-mobile.png);
+        width: 100%;    
+        height: 393px;
+        margin-bottom: 50px;
+    }
+
+    .foda4 {
+        width: 100%;
+        height: 143px;
+    }
+
+    .foda8 {
+        width: 100%;
+        background-image: url(assets/img/foda-silva/foda-mobile.png);
+        height: 393px;
+        margin-bottom: 100px;
+    }
+
+    .white-foda {
+        height: 2000px !important;
+    }
+
+    .emma1 {
+        margin-top: 50px;
+    }
+
+    .emma2 {
+        width: 100%;
+        height: 100px;
+    }
+
+    .emma3 {
+        width: 100%;
+        height: 145px;
+    }
+
+    .secuur2 {
+        margin-top: 50px;
+    }
+
+    .secuur3 {
+        width: 100%;
+        height: 106px;
+    }
+
+    .secuur4 {
+        height: 146px;
+    }
+
+    .secuur5 {
+        height: 175px;
+    }
+
+    .secuur7 {
+        height: 195px;
+    }
+
+    .secuur9 {
+        width: 100%;
+        height: 227px;
+        margin-bottom: 50px;
+    }
+
+    .secuur10 {
+        height: 1627px;
+        margin-bottom: 50px;
+    }
+
+    .secuur-logo {
+        margin: 0 auto;
+    }
+
+    .reizigers-wrapper {
+        width: 100%;
+    }
+
+    .ar-box-1 {
+        display: none ;
+    }
+
+    .moons-box-2, .foda-box-2, .secuur-box-2, .ar-box-2, .kapje-box-2, .emma-box-2 {
+        display: block;
+    }
+
+    .inspiratie {
+        display: none;
+    }
+
+    #contact-form {
+        margin-top: -70px !important;
+    }
+
+    .mobile-cta-box {
+        display: block !important;
+    }
+
+    .hover-overlay {
+        display: none !important;
+    }
+
+    .site-branding a img {
+        width: 50%;
+        top: 27px !important;
+    }
+
+    .workshop-label {
+        left: 35%;
+        top: -13px;
+    }
+
+    .huisstijl-label {
+        left: 33%;
+        top: -13px;
+    }
+
+    section.ahoy h1 {
+        font-size: 30px;
+        padding: 0px 20px;
+    }
+
+    .cf-nina {
+        background-image: none;
+    }
+
+    .person {
+        width: 100%;
+    }
+
+    .f-bb {
+        width: 100% !important;
+    }
+
+    .cf-content h1 {
+        width: 100%;
+    }
+
+    .index1, .index2 ,.index3, .index4 {
+        margin: 0 auto;
+    }
+
+    .reis-box {
+        order: 1;
+    }
+
+    .reis-cta {
+        margin-top: 0px;
+    }
+
+    .hamburger {
+        font-size: 3.8em !important;
+        position: absolute;
+        top: 0px;
+        right: 25px;
+    }
+
+    h1 {
+        font-size: 34px !important;
+    }
+
+    .reis-text {
+        margin-bottom: 50px !important;
+    }
+
+    .rb-box h1, .rb-top-card h1 {
+        font-size: 24px !important;
+    }
+
+    .reis-content {
+        padding: 0px 35px !important;
+        gap: 20px !important;
+    }
+
+    .reis-text-h1, .maak-je-keuze-container h1, .meerzien2 h2, .meerzien h2, .meerzien3 h2 {
+        font-size: 34px !important;
+    }
+
+    .reis-content h4 {
+        font-size: 34px !important;
+        line-height: 1.2 !important;
+    }
+
+    .reis-cta-h1 {
+        margin-top: 50px !important;
+    }
+
+    .lja-contact-box {
+        width: 300px !important;
+    }
+
+    .lja-contact-box a{
+        font-size: 18px !important;
+    }
+
+    section.ahoy h1 {
+        line-height: 1.2 !important;
+    }
+
+    .fases {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .fase-card {
+        width: 100%;
+    }
+
+    .fase-container {
+        margin-top: 70px !important;
+    }
+
+    .fase-container a {
+        width: 312px !important;
+    }
+
+    .lijn-paars-1, .lijn-paars-2 {
+        display: none;
+    }
+
+    section.blog-cards-section {
+        width: 100%;
+        height: auto;
+        padding: 50px 0px;
+        margin-bottom: 50px;
+    }
+
+    .blog-cards {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .blog-card {
+        max-width: 90%;
+    }
+
+    .blog-card-image img {
+        width: 100%;
+    }
+
+    .blog-button {
+        width: 100px !important;
+        text-align: center !important;
+    }
+
+    .blog-card-content p {
+        width: 50%;
+    }
+
+    .blog-boxes {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .blog-box-1, .blog-box-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-box-1 {
+        margin-top: 25px !important;
+    }
+
+    .blog-box-2 {
+        margin-bottom: 100px;
+        margin-top: 25px !important;
+    }
+
+    .blog-lja, .single-blog-card {
+        margin: 0 auto;
+    }
+
+    .blog-post {
+        padding: 40px;
+    }
+
+    .single-blog-container {
+        height: auto;
+    }
+
+    .single-blog-post-content {
+        padding: 20px;
+    }
+
+
+    .top-card h2 {
+        height: 57px;
+    }
+    
+    .emma-iphones {
+        background-image: url(assets/img/emma/emma-mobile.png);
+        height: 393px;
+        margin-bottom: 80px;
+    }
+
+    section.p-wp p {
+        padding: 20px;
+    }
+
+    .cf-container h1 {
+        text-align: center;
+    }
+    .cf-tel-box, .cf-contact-box  {
+        margin: 0 auto;
+    }
+
+    section.p-hero {
+        background-image: url(assets/img/foto1.png);
+        width: 100%;
+        height: 250px;
+    }
+
+    .blogs-wp-nina {
+        background-image: url(assets/img/foto2.png);
+        width: 100%;
+        height: 250px;
+    }
+
+    .tc-images {
+        margin-top: 100px;
+    }
+
+    .competentie2 {
+        height: 97px;
+    }
+
+    .competentie2, .competentie3 {
+        width: 100%;
+    }
+
+    .competentie3 {
+        height: 157px;
+    }
+
+    .competentie4 {
+        height: 530px;
+    }
+
+    .competentie5 {
+        height: 300px;
+    }
+
+    .competentie6 {
+        height: 682px;
+    }
+
+    .competentie7 {
+        height: 520px;
+        margin-bottom: 150px;
+    }
+
+    .competentie-logo {
+        width: 100%;
+    }
+
+    .competentie-box-2 {
+        width: 458px;
+    height: 602px;
+    }
+}

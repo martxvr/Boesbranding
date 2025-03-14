@@ -9,52 +9,50 @@
     <style>
         /* Fonts zoals eerder gedefinieerd */
         @font-face {
-    font-family: 'boes_branding_v2regular';
-    src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/boesbrandingv2-webfont.woff2') format('woff2'),
-         url('<?php echo get_template_directory_uri(); ?>/assets/fonts/boesbrandingv2-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+            font-family: 'boes_branding_v2regular';
+            src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/boesbrandingv2-webfont.woff2') format('woff2'),
+                 url('<?php echo get_template_directory_uri(); ?>/assets/fonts/boesbrandingv2-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
 
-@font-face {
-    font-family: "Blushes";
-    src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/Blushes/font.woff2') format('woff2'),
-         url('<?php echo get_template_directory_uri(); ?>/assets/fonts/Blushes/font.woff') format('woff');
-    font-weight: 900; /* Gebruik 900 voor extra dikke tekst */
-    font-style: normal;
-}
+        @font-face {
+            font-family: "Blushes";
+            src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/Blushes/font.woff2') format('woff2'),
+                 url('<?php echo get_template_directory_uri(); ?>/assets/fonts/Blushes/font.woff') format('woff');
+            font-weight: 900;
+            font-style: normal;
+        }
 
-@font-face {
-    font-family: "BlushesBold";
-    src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/BlushesBold/font.woff2') format('woff2'),
-         url('<?php echo get_template_directory_uri(); ?>/assets/fonts/BlushesBold/font.woff') format('woff');
-    font-weight: 900; /* Gebruik 900 voor extra dikke tekst */
-    font-style: normal;
-}
+        @font-face {
+            font-family: "BlushesBold";
+            src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/BlushesBold/font.woff2') format('woff2'),
+                 url('<?php echo get_template_directory_uri(); ?>/assets/fonts/BlushesBold/font.woff') format('woff');
+            font-weight: 900;
+            font-style: normal;
+        }
 
+        @font-face {
+            font-family: "Moon";
+            src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/MoonBold.woff2') format('woff2'),
+                 url('<?php echo get_template_directory_uri(); ?>/assets/fonts/MoonBold.woff') format('woff');
+            font-weight: 900;
+            font-style: normal;
+        }
 
-@font-face {
-    font-family: "Moon";
-    src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/MoonBold.woff2') format('woff2'),
-         url('<?php echo get_template_directory_uri(); ?>/assets/fonts/MoonBold.woff') format('woff');
-    font-weight: 900; /* Gebruik 900 voor extra dikke tekst */
-    font-style: normal;
-}
+        @font-face {
+            font-family: "hpbold";
+            src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/hpsimplified_bold.ttf') format('truetype');
+            font-weight: 900;
+            font-style: normal;
+        }
 
-@font-face {
-    font-family: "hpbold";
-    src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/hpsimplified_bold.ttf') format('truetype');
-    font-weight: 900; /* Gebruik 900 voor extra dikke tekst */
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "hpitalic";
-    src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/hpsimplified_italic.ttf') format('truetype');
-    font-weight: 900; /* Gebruik 900 voor extra dikke tekst */
-    font-style: normal;
-}
-
+        @font-face {
+            font-family: "hpitalic";
+            src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/hpsimplified_italic.ttf') format('truetype');
+            font-weight: 900;
+            font-style: normal;
+        }
 
         /* Basis styling voor header en menu */
         header {
@@ -160,9 +158,7 @@
             font-family: Cabin;
         }
 
-
         @media (max-width: 1000px) {
-
             header {
                 padding: 10px !important;
                 height: 83px !important;
@@ -247,7 +243,6 @@
                 margin-top: 25px;
             }
         }
-
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

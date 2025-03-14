@@ -3,7 +3,7 @@
 <footer>
     <div class="footer-content" style="margin-top: 50px;">
         <div class="fc-1">
-            <div class="bb-footer-logo"></div>
+            <div class="bb-footer-logo" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/bb-logo.png');"></div>
             <div class="f-bb" style="width: 400px;">
                 <h4 style="font-family: 'Cabin'">BOES branding</h4>
                 <p>De ontdekkingsreis naar je merk.<br>
@@ -19,10 +19,10 @@
             <div class="f-social">
                 <h4 style="font-family: 'Cabin'">Social media:</h4>
                 <div class="f-social-images">
-                    <a href="https://www.instagram.com/boesbranding" target="blank" class="f-social-img1"></a>
-                    <a href="https://www.facebook.com/boesbranding" target="blank" class="f-social-img2"></a>
-                    <a href="https://www.linkedin.com/in/nina-boes-boesbranding-branddesigner-grafisch-ontwerper-merkidentiteiten-branding/?originalSubdomain=nl" target="blank" class="f-social-img3"></a>
-                    <a href="tel:+31629799993" class="f-social-img4"></a>
+                    <a href="https://www.instagram.com/boesbranding" target="blank" class="f-social-img1" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/f-ig.svg');"></a>
+                    <a href="https://www.facebook.com/boesbranding" target="blank" class="f-social-img2" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/f-f.svg');"></a>
+                    <a href="https://www.linkedin.com/in/nina-boes-boesbranding-branddesigner-grafisch-ontwerper-merkidentiteiten-branding/?originalSubdomain=nl" target="blank" class="f-social-img3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/f-li.svg');"></a>
+                    <a href="tel:+31629799993" class="f-social-img4" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/f-t.svg');"></a>
                 </div>
             </div>
         </div>

@@ -3,9 +3,6 @@
  * Theme functions and definitions
  */
 
-// Import WordPress core
-require_once(ABSPATH . 'wp-load.php');
-
 // Include required files
 require_once get_template_directory() . '/inc/setup.php';
 require_once get_template_directory() . '/inc/enqueue.php';
